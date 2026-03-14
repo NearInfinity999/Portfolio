@@ -468,7 +468,12 @@
    position: relative;
    overflow: hidden;
  }
-
+.about-photo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
  .about-photo-placeholder::before {
    content: '';
    position: absolute;
@@ -897,6 +902,15 @@
    nav {
      padding: 22px 28px;
    }
+   .about-photo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-photo-frame {
+  display: none;
+}
 
    nav .nav-links {
      display: none;
